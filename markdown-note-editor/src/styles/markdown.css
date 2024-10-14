@@ -50,17 +50,30 @@ ul li::before {
 }
 hr {
    margin-block: 1rem;
-   border-color: rgba(240, 128, 128, 0.227);
-   border-width: 1.5px;
-   border-radius: 10%;
+   border-color: rgba(255, 68, 0, 0.5);
+   border-width: 1.7px;
+   border-radius: 30px;
+}
+pre {
+   font-family: "Fira Code", monospace;
+   font-size: small;
+   background-color: rgba(211, 211, 211, 0.607);
+   padding: 1rem;
+   border-radius: 10px;
+   font-weight: 100;
 }
 code {
+   font-family: "Fira Code", monospace;
    font-size: small;
+   font-weight: 100;
 }
 a {
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: underline;
+   font-size: 1.1rem;
    color: orange;
 }
-blockquote p{
+blockquote p {
    font-family: "Roboto Slab", serif;
    font-weight: 500;
    font-size: 0.9rem;
@@ -70,4 +83,19 @@ blockquote p{
    background-color: rgba(211, 211, 211, 0.607);
    border-radius: 5px 10px 40px 5px;
    border-left: 0.4rem solid orangered;
+}
+
+@media print {
+   body {
+      print-color-adjust: exact;
+   }
+   .markdown-notes {
+      width: 100%;
+   }
+   .text-editor {
+      display: none;
+   }
+   button {
+      display: none;
+   }
 }
