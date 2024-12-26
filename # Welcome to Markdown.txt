@@ -1,0 +1,29 @@
+# Welcome to Markdown
+
+Markdown is a light weight markup language that you can use to add formatting elements to plain text documents.
+
+## How to use this ?
+
+1. Write markdown in markdown editor window.
+2. See the rendered markdown in the preview window.
+
+### Features
+
+-  Create headings, paragraphs, links, blockquotes, inline-code, code blocks, and lists.
+- Name and save the document to access again later
+- Choose between Light or Dark mode depending on your preference
+
+> This is the example of blockquote. This helps to mark something important in your notes.
+You can also add links here like [Click Here](www.google.com)
+
+```
+#include<stdio.h>
+int main(){
+    printf("Hello World");
+}
+```
+
+
+
+
+
